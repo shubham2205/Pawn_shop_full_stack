@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300 900;
+  src: url('https://fonts.gstatic.com/s/rubik/v26/iJWKBXyIfDnIV7nBrXyw023e.woff2') format('woff2');
+}
+
+* {
+  color: #e2e2e2;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #999999;
+  border-radius: 50px;
+}
+
+.text-pink {
+  color: #fa3f94;
+}

@@ -1,0 +1,17 @@
+const [NavContent, setNavContent] = useState();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    const role = localStorage.getItem("role");
+    
+    if (token == !undefined && role == "admin") {
+
+
+    } else if (token == !undefined && role == "user") {
+
+
+    } else {
+
+
+    }
+  });
